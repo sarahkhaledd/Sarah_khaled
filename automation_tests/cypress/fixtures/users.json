@@ -1,0 +1,11 @@
+{
+  "inValidUser": "sarah",
+  "inPassword": "pw123",
+  "standardUserName": "standard_user",
+  "lockedOutUserName": "locked_out_user",
+  "problemUserName": "problem_user",
+  "performanceGlitchUserName": "performance_glitch_user",
+  "errorUserName": "error_user",
+  "visualUserName": "visual_user",
+  "password": "secret_sauce"
+}
