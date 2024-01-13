@@ -158,11 +158,11 @@
 3. **SignIn with Email/Password (Invalid Credentials):**
    - *Scenario:* Refer to the detailed scenario in the [Authentication section](#authentication).
 
-4. **Navigate to My Day:**
-   - *Scenario:* Refer to the detailed scenario in the [Bottom Bar section](#bottom-bar).
+4. **Task Management:**
+    - *Scenario:* Refer to the detailed scenario in the [Tasks within Lists section](#tasks-within-lists).
 
-5. **Navigate to Next 7 Days:**
-   - *Scenario:* Refer to the detailed scenario in the [Bottom Bar section](#bottom-bar).
+5. **Navigate to My Day:**
+   - *Scenario:* Refer to the detailed scenario in the [Bottom Bar section](#bottom-bar). 
   
 6. **Calendar Integration:**
     - *Scenario:* Refer to the detailed scenario in the [Mobile App Testing Scenarios section](#mobile-app-testing-scenarios).
@@ -184,8 +184,8 @@
 11. **Task Organization:**
     - *Scenario:* Refer to the detailed scenario in the [Tasks within Lists section](#tasks-within-lists).
 
-12. **Task Management:**
-    - *Scenario:* Refer to the detailed scenario in the [Tasks within Lists section](#tasks-within-lists).
+12. **Navigate to Next 7 Days:**
+   - *Scenario:* Refer to the detailed scenario in the [Bottom Bar section](#bottom-bar).
 
 13. **Daily Push Notification:**
     - *Scenario:* Refer to the detailed scenario in the [Settings Page section](#settings-page).
@@ -225,20 +225,15 @@
 24. **Completed Task Management:**
     - *Scenario:* Refer to the detailed scenario in the [Settings Page section](#settings-page).
 
-25. **Push Notifications:**
-    - *Scenario:* Refer to the detailed scenario in the [Mobile App Testing Scenarios section](#mobile-app-testing-scenarios).
-
-26. **Notification Handling:**
-    - *Scenario:* Refer to the detailed scenario in the [Mobile App Testing Scenarios section](#mobile-app-testing-scenarios).
-
 27. **Localization:**
     - *Scenario:* Refer to the detailed scenario in the [Mobile App Testing Scenarios section](#mobile-app-testing-scenarios).
 
 28. **Battery Consumption:**
     - *Scenario:* Refer to the detailed scenario in the [Mobile App Testing Scenarios section](#mobile-app-testing-scenarios).
-      
+
 29. **Access Calendar Section:**
     - *Scenario:* Refer to the detailed scenario in the [Bottom Bar section](#bottom-bar).
+
 
 
 ## Bugs Found
