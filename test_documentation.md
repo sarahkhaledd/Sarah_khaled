@@ -283,10 +283,10 @@ You have an account.
 5. Reset the password through Gmail.
 
 **Expected Result:**
-Automatically redirected to the login screen and successfully log in with the new password.
+- Automatically redirected to the login screen and successfully log in with the new password.
 
 **Actual Result:**
-After setting the new password and automatic redirection to the app, the screen is suspended, and navigation through the app is not possible.
+- After setting the new password and automatic redirection to the app, the screen is suspended, and navigation through the app is not possible.
 
 **Environment:**
 - Device: iPhone 13
@@ -300,8 +300,42 @@ After setting the new password and automatic redirection to the app, the screen 
 
 https://drive.google.com/file/d/11K7qLFpQY4ZkU05YZGn3ZtwgJ1hChFWJ/view?usp=sharing
 
+## Bug 3: (Settings permissions - Change Profile Pic page) The Settings Permission isn’t displayed for Profile Picture Change.
 
-## Bug 3: (Localization - Arabic Version) Incorrect Localization on Settings Page 
+**Description:**
+When not allowing camera or photo access permissions, attempting to change the profile picture doesn't display the settings permissions toast. Additionally, selecting a photo from the gallery results in no action, and using the camera opens with a black screen.
+
+**Prerequisites:**
+You have an account.
+
+**Steps to Reproduce:**
+1. Login.
+2. Navigate to the settings page.
+3. Click on the profile button.
+4. Click on "Change Profile Picture."
+   - Case 1: Select photos from the gallery.
+   - Case 2: Select photos from the camera.
+
+**Actual Result:**
+- Case 1: The gallery opens, and when selecting a photo, nothing happens.
+- Case 2: The camera is opened, but the screen is black, and no photo can be taken.
+
+**Expected Result:**
+- When clicking on "Change Profile Picture," the settings permissions toast should be displayed.
+
+**Priority:** High  
+**Severity:** Critical
+
+**Screen Shots:**
+
+<img width="377" alt="Screenshot 2024-01-14 at 1 13 29 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/e9feb8d4-3d52-457a-99db-033ecb2e0698">
+
+**Screen Recording:**
+
+https://drive.google.com/file/d/1z2hS5doacqyLPd26Q_wmtLsO5zdA6unh/view?usp=sharing
+
+
+## Bug 4: (Localization - Arabic Version) Incorrect Localization on Settings Page 
 
 **Prerequisites:**
 You have an account, and the app is in the English version.
@@ -313,10 +347,10 @@ You have an account, and the app is in the English version.
 4. Choose Arabic language.
 
 **Expected Result:**
-The setting page contents are localized correctly.
+- The setting page contents are localized correctly.
 
 **Actual Result:**
-The title "Settings" and "Account" are not localized.
+- The title "Settings" and "Account" are not localized.
 
 **Environment:**
 - Device: iPhone 13
@@ -327,10 +361,10 @@ The title "Settings" and "Account" are not localized.
 
 **Screen Shot:**
 
-https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/3fbb8b0d-6be4-4391-be09-46c144421c91
+<img width="377" alt="Screenshot 2024-01-14 at 1 13 29 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/3fbb8b0d-6be4-4391-be09-46c144421c91">
 
 
-## Bug 4: (Settings page - My Day Reset Time) Several toasts appeared when I clicked the My Day Reset Time button multiple times.
+## Bug 5: (Settings page - My Day Reset Time) Several toasts appeared when I clicked the My Day Reset Time button multiple times.
 
 **Prerequisites:**
 You have an account.
@@ -342,10 +376,10 @@ You have an account.
 4. Click on the "My Day Reset Time" button multiple times at the same moment.
 
 **Expected Result:**
-The time toast is displayed once.
+- The time toast is displayed once.
 
 **Actual Result:**
-The time toast is displayed multiple times, overlapping each other, and cannot be closed.
+- The time toast is displayed multiple times, overlapping each other, and cannot be closed.
 
 **Environment:**
 - Device: iPhone 13
@@ -359,7 +393,7 @@ The time toast is displayed multiple times, overlapping each other, and cannot b
 https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/f74c0fc0-b3ca-492e-a0d5-10d5b3317b01
 
 
-## Bug 5: (Sign-in/up - without internet) An unclear error message is displayed when there is no internet network.
+## Bug 6: (Sign-in/up - without internet) An unclear error message is displayed when there is no internet network.
 
 **Steps:**
 1. Disconnect the internet from the mobile.
@@ -369,10 +403,10 @@ https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/f74c0fc0-b3ca-492e-
 5. Click the enter button.
 
 **Expected Result:**
-The error message for an internet issue is displayed.
+- The error message for an internet issue is displayed.
 
 **Actual Result:**
-The "Couldn't connect to server" message is displayed.
+- The "Couldn't connect to server" message is displayed.
 
 **Environment:**
 - Device: iPhone 13
@@ -388,7 +422,7 @@ The "Couldn't connect to server" message is displayed.
 ](https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/81c4bc50-52b2-4a10-ad4e-b87faab14979
 )
 
-## Bug 6: (List page - suggested items) The selection of suggested items removes others.
+## Bug 7: (List page - suggested items) The selection of suggested items removes others.
 
 **Description:**
 When selecting all suggested items and then searching for another item, choosing one from the new suggestions, removes all other items suggested.
@@ -401,10 +435,10 @@ When selecting all suggested items and then searching for another item, choosing
 5. Choose one item from the new suggested list.
 
 **Actual Result:**
-All other items are removed when choosing one from the new suggestions.
+- All other items are removed when choosing one from the new suggestions.
 
 **Expected Result:**
-The other items are kept until i change the word.
+- The other items are kept until i change the word.
 
 **Priority:** Low  
 **Severity:** Minor
@@ -414,7 +448,7 @@ The other items are kept until i change the word.
 https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/33bb578d-33ae-4158-a53a-a0e451f05b00
 
 
-## Bug 7: (Task page - Reminder) The keyboard overlapping reminder pop-up
+## Bug 8: (Task page - Reminder) The keyboard overlapping reminder pop-up
 
 **Description:**
 The keyboard is overlapping the reminder pop-up when it's opening, and I clicked on the "Reminder" button.
@@ -430,10 +464,10 @@ You have tasks created and an account.
 5. Click on the "Reminder at" button.
 
 **Expected Result:**
-The keyboard is closed, and the reminder pop-up is opened.
+- The keyboard is closed, and the reminder pop-up is opened.
 
 **Actual Result:**
-The keyboard is overlapping the reminder pop-up.
+- The keyboard is overlapping the reminder pop-up.
 
 **Priority:** Medium  
 **Severity:** Minor
@@ -443,7 +477,7 @@ The keyboard is overlapping the reminder pop-up.
 https://drive.google.com/file/d/1YExPUQ04TeGrrPNLba3jvfGmBN36YnQK/view?usp=sharing
 
 
-## Bug 8: (Search on tasks) The search result is reset when keyboard is closed
+## Bug 9: (Search on tasks) The search result is reset when keyboard is closed
 
 **Description:**
 The search result is reset when closing the keyboard.
@@ -459,10 +493,10 @@ You have tasks created and an account.
 5. Close the keyboard.
 
 **Expected Result:**
-The result of the search is kept whether the keyboard is opened or closed.
+- The result of the search is kept whether the keyboard is opened or closed.
 
 **Actual Result:**
-The result of the search is reset once the keyboard is closed.
+- The result of the search is reset once the keyboard is closed.
 
 **Priority:**  High
 **Severity:** Minor
@@ -471,12 +505,154 @@ The result of the search is reset once the keyboard is closed.
 
 https://drive.google.com/file/d/169F_5srEHC2Qq2p1sXW4DEWFZWQpq0hZ/view?usp=sharing
 
-...
+
+## Bug 10: (Localization - UI) The title alignment issue in the Arabic version
+
+**Description:**
+The title is aligned to the left in the Arabic version when it should be on the right side.
+
+**Prerequisites:**
+You have tasks created and an account in Arabic.
+
+**Steps to Reproduce:**
+1. Login.
+2. Choose a list on the home page.
+
+**Expected Result:**
+- When the app is in Arabic, the title should be aligned to the right side.
+
+**Actual Result:**
+- The Arabic title is aligned on the left side.
+
+**Priority:** Low  
+**Severity:** Trivial
+
+**Screen Shot:**
+
+<img width="377" alt="Screenshot 2024-01-14 at 1 13 29 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/a9d33364-c794-4c02-8a37-506058ca501e">
+
+
+## Bug 11: (Task page - Renaming) The task name is reset to the old one when you click the reminder button after renaming the task.
+
+**Description:**
+When renaming a task and then clicking on the reminder button, the new name is reset to the old one in the background.
+
+**Prerequisites:**
+You have tasks created and an account.
+
+**Steps to Reproduce:**
+1. Login.
+2. Choose a list on your home page.
+3. Choose a task from the list.
+4. Rename the task.
+5. Click on the reminder button.
+
+**Expected Result:**
+- The new name should be updated even after clicking on the reminder button.
+
+**Actual Result:**
+- The old name is displayed when clicking on the reminder button.
+
+**Priority:** Low  
+**Severity:** Minor
+
+**Screen Recording:**
+
+https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/00b74799-0a9f-44c4-a604-28bd8d48dd18
+
+## Bug 12: (Sign-in/up page - UX) No error message for the incorrect format email in the Sign In/Up page
+
+**Description:**
+When inserting an incorrect format email on the sign-in/up page, no error message on the field is displayed.
+
+**Steps to Reproduce:**
+1. Open the app.
+2. Click on the email button.
+3. Insert an incorrect format email.
+4. Click on the "->" icon.
+
+**Expected Result:**
+- The error message on the email field should be displayed.
+
+**Actual Result:**
+- When clicking on the button, nothing happens, and no error message is displayed.
+
+**Priority:** High  
+**Severity:** Minor
+
+**Screen Recording:**
+
+https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/d5dab2cc-7c89-4a4b-90ba-0606c7543f9f
+
+
+## Bug 13: (Home page - list) The task numbers are displayed after deleting all tasks from a list.
+
+**Description:**
+The list still displays a number of tasks even after all tasks have been deleted.
+
+**Prerequisites:**
+You have an account.
+
+**Steps to Reproduce:**
+1. Login.
+2. Select a list from the home page.
+3. Create some tasks in the list.
+4. Select the "Start from scratch" button.
+5. Click on the "Delete All" button.
+6. Close the list.
+
+**Expected Result:**
+The list is empty, and the card of the list doesn't display the number of tasks.
+
+**Actual Result:**
+The list is empty, but the card still displays the number of tasks that were deleted.
+
+**Priority:** High  
+**Severity:** Major
+
+**Screen Recording:**
+
+Uploading RPReplay_Final1705111126.MP4…
+
+**Screen Shots:**
+
+<img width="372" alt="Screenshot 2024-01-14 at 1 12 59 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/76ff90fc-fd01-4a23-83f7-fd59cdf043d3">
+
+<img width="377" alt="Screenshot 2024-01-14 at 1 13 29 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/86af9c82-8f81-433e-996c-40d504e03745">
+
+
+## Bug 14: (UI - Enhancment in Settings page) The font size used in the settings page titles is incompatible.
+
+**Description:**
+The title of each section on the settings page should be larger than the subsection titles.
+
+**Prerequisites:**
+You have an account.
+
+**Steps to Reproduce:**
+1. Login.
+2. Navigate to the settings page.
+
+**Expected Result:**
+The title of the section is larger than the subsection titles.
+
+**Actual Result:**
+The title of the section is too small compared to the titles of subsections.
+
+**Priority:** Low  
+**Severity:** Trivial
+
+
+**Screen Shots:**
+
+<img width="377" alt="Screenshot 2024-01-14 at 1 13 29 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/4203d727-01c6-450e-81c7-3597fc0f1cdd">
+
+<img width="377" alt="Screenshot 2024-01-14 at 1 13 29 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/a3a67308-4d66-4079-89a4-0205ecb00fc0">
+
 
 ## Detailed Test Cases
 
 ## 4. Detailed Test Cases
-
 
 ### Common Preconditions:
 - User is on the login page.
