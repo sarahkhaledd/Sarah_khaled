@@ -326,7 +326,8 @@ The title "Settings" and "Account" are not localized.
 **Severity:** Minor
 
 **Screen Shot:**
-![Bug4](https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/e4980c99-8331-49ab-ab72-a0a4115bf0c9)
+
+https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/3fbb8b0d-6be4-4391-be09-46c144421c91
 
 
 ## Bug 4: (Settings page - My Day Reset Time) Several toasts appeared when I clicked the My Day Reset Time button multiple times.
