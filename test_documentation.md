@@ -647,7 +647,7 @@ The title of the section is too small compared to the titles of subsections.
 
 <img width="377" alt="Screenshot 2024-01-14 at 1 13 29 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/4203d727-01c6-450e-81c7-3597fc0f1cdd">
 
-<img width="377" alt="Screenshot 2024-01-14 at 1 13 29 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/a3a67308-4d66-4079-89a4-0205ecb00fc0">
+<img width="377" alt="Screenshot 2024-01-14 at 1 13 29 PM" src="https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/862e22fd-fec2-4ab3-8f6f-69d64b0b6e1f">
 
 
 ## Detailed Test Cases
