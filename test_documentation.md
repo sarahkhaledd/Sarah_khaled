@@ -238,7 +238,238 @@
 
 ## Bugs Found
 
-### Bug 1: Issue with User Registration
+## Bug 1: (UX - Sign in with facebook) The "Ok" toast was displayed when I cancelled the sign in with facebook
+
+**Description:**
+The "Ok" toast is displayed when I click on the "Cancel" button in the settings toast while attempting to sign in with a Facebook account.
+
+**Environment:**
+- Device: iPhone 13
+- iOS Version: 16.7.2
+  
+**Steps to Reproduce:**
+1. Launch the app.
+2. Click on the facebook icon.
+3. Click on the cancel button.
+
+**Expected Result:**
+- The user should navigato to home screen without displaying any toast message when i clicked on the cancel button 
+
+**Actual Result:**
+- The "Ok" toast message is displayed when i clicked on the cancel button
+
+**Priority:** Medium
+
+**Severity:** Minor
+
+**Screen Recording:**
+
+https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/f8786c5b-e289-486f-83c4-d298e290d9b5
+
+
+## Bug 2: (Forget password page) the app suspension after resetting the password
+
+**Description:**
+The app is suspended on the "Check your inbox..." screen after resetting the password through Gmail. This prevents navigation through the app until it is closed and reopened.
+
+**Prerequisites:**
+You have an account.
+
+**Steps:**
+1. Launch the app.
+2. Click on the email icon.
+3. Insert an email.
+4. Click on "Forget Password."
+5. Reset the password through Gmail.
+
+**Expected Result:**
+Automatically redirected to the login screen and successfully log in with the new password.
+
+**Actual Result:**
+After setting the new password and automatic redirection to the app, the screen is suspended, and navigation through the app is not possible.
+
+**Environment:**
+- Device: iPhone 13
+- iOS Version: 16.7.2
+
+**Priority:** Medium  
+**Severity:** Major
+
+
+**Screen Recording:**
+
+https://drive.google.com/file/d/11K7qLFpQY4ZkU05YZGn3ZtwgJ1hChFWJ/view?usp=sharing
+
+
+## Bug 3: (Localization - Arabic Version) Incorrect Localization on Settings Page 
+
+**Prerequisites:**
+You have an account, and the app is in the English version.
+
+**Steps:**
+1. Login.
+2. Choose any list on the home page.
+3. Click on the settings button.
+4. Choose Arabic language.
+
+**Expected Result:**
+The setting page contents are localized correctly.
+
+**Actual Result:**
+The title "Settings" and "Account" are not localized.
+
+**Environment:**
+- Device: iPhone 13
+- iOS Version: 16.7.2
+
+**Priority:** Medium  
+**Severity:** Minor
+
+**Screen Shot:**
+![Bug4](https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/e4980c99-8331-49ab-ab72-a0a4115bf0c9)
+
+
+## Bug 4: (Settings page - My Day Reset Time) Several toasts appeared when I clicked the My Day Reset Time button multiple times.
+
+**Prerequisites:**
+You have an account.
+
+**Steps:**
+1. Open the app.
+2. Login.
+3. Navigate to the settings screen.
+4. Click on the "My Day Reset Time" button multiple times at the same moment.
+
+**Expected Result:**
+The time toast is displayed once.
+
+**Actual Result:**
+The time toast is displayed multiple times, overlapping each other, and cannot be closed.
+
+**Environment:**
+- Device: iPhone 13
+- iOS Version: 16.7.2
+
+**Priority:** Low  
+**Severity:** Minor
+
+**Screen Recording:**
+
+https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/f74c0fc0-b3ca-492e-a0d5-10d5b3317b01
+
+
+## Bug 5: (Sign-in/up - without internet) An unclear error message is displayed when there is no internet network.
+
+**Steps:**
+1. Disconnect the internet from the mobile.
+2. Open the app.
+3. Click on the email icon.
+4. Insert an email.
+5. Click the enter button.
+
+**Expected Result:**
+The error message for an internet issue is displayed.
+
+**Actual Result:**
+The "Couldn't connect to server" message is displayed.
+
+**Environment:**
+- Device: iPhone 13
+- iOS Version: 16.7.2
+- Network: No internet connectivity
+
+**Priority:** Low  
+**Severity:** Trivial
+
+**Screen Recording:**
+
+[Uploading Bug5.MP4…
+](https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/81c4bc50-52b2-4a10-ad4e-b87faab14979
+)
+
+## Bug 6: (List page - suggested items) The selection of suggested items removes others.
+
+**Description:**
+When selecting all suggested items and then searching for another item, choosing one from the new suggestions, removes all other items suggested.
+
+**Steps to Reproduce:**
+1. Login.
+2. Choose any list at your home page.
+3. Add new tasks from selecting all items suggested.
+4. Search for another item.
+5. Choose one item from the new suggested list.
+
+**Actual Result:**
+All other items are removed when choosing one from the new suggestions.
+
+**Expected Result:**
+The other items are kept until i change the word.
+
+**Priority:** Low  
+**Severity:** Minor
+
+**Screen Recording:**
+
+https://github.com/sarahkhaledd/Sarah_khaled/assets/61946261/33bb578d-33ae-4158-a53a-a0e451f05b00
+
+
+## Bug 7: (Task page - Reminder) The keyboard overlapping reminder pop-up
+
+**Description:**
+The keyboard is overlapping the reminder pop-up when it's opening, and I clicked on the "Reminder" button.
+
+**Prerequisites:**
+You have tasks created and an account.
+
+**Steps to Reproduce:**
+1. Login.
+2. Choose list at your home page.
+3. Choose task from the list.
+4. Click on the notes section.
+5. Click on the "Reminder at" button.
+
+**Expected Result:**
+The keyboard is closed, and the reminder pop-up is opened.
+
+**Actual Result:**
+The keyboard is overlapping the reminder pop-up.
+
+**Priority:** Medium  
+**Severity:** Minor
+
+**Screen Recording:**
+
+https://drive.google.com/file/d/1YExPUQ04TeGrrPNLba3jvfGmBN36YnQK/view?usp=sharing
+
+
+## Bug 8: (Search on tasks) The search result is reset when keyboard is closed
+
+**Description:**
+The search result is reset when closing the keyboard.
+
+**Prerequisites:**
+You have tasks created and an account.
+
+**Steps to Reproduce:**
+1. Login.
+2. Click on "My Day" at the bottom bar.
+3. Click on the blue circle.
+4. Search for a task.
+5. Close the keyboard.
+
+**Expected Result:**
+The result of the search is kept whether the keyboard is opened or closed.
+
+**Actual Result:**
+The result of the search is reset once the keyboard is closed.
+
+**Priority:**  High
+**Severity:** Minor
+
+**Screen Recording:**
+
+https://drive.google.com/file/d/169F_5srEHC2Qq2p1sXW4DEWFZWQpq0hZ/view?usp=sharing
+
 ...
 
 ## Detailed Test Cases
